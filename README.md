@@ -20,9 +20,16 @@ Conversor en JavaScript de grados Celsius a Farenheit y a Kelvin y viceversade l
 
 ### Despliegue en github.io
 
-* [https://github.com/alu4543/STW-3](https://github.com/alu4543/STW-3)
+* [http://alu4543.github.io/TempConversor3/](http://alu4543.github.io/TempConversor3/)
 
 ### Ejecutar las pruebas
 
-* [https://github.com/alu4543/STW-3/tests/index.html](https://github.com/alu4543/STW-3/tests/index.html)
+* [http://alu4543.github.io/TempConversor3/tests/](http://alu4543.github.io/TempConversor3/tests/)
+
+
+
+
+
+
+
 
