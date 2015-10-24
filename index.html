@@ -4,10 +4,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="Author" content="Mohammed Mahrach">
     <meta http-equiv="content-type" content="text/application/xhtml; charset=UTF-8" />
-    <title>JavaScript Temperature Converter</title>
-    <link rel="stylesheet" type="text/css" href="../EstiloCss/Estilo.css" Imagenes="screen" />
+    <title>JavaScript Unit Converter</title>
 		<link href="global.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="temperature.js"></script>
+		<script type="text/javascript" src="converter.js"></script>
 </head>
 
 <body>
@@ -29,58 +28,104 @@
 
  	<div id="content">
 
-		<h1>Temperature Converter</h1>
+		<h1>Unit Converter</h1>
 
     <div>
-			<p>Enter  Temperature : <input id="original" autofocus onchange="calculate();" placeholder="examples: '0celsius, 32ºF, -45K, 3.4e2c, -2.3e-4kelvin,.." size="50"></p>
+			<p>Enter  Unit : <input id="original" autofocus onchange="calculate();" placeholder="examples: '0celsius, 32ºF, -45K, 3.4e2c, -2.3e-4kelvin,.." size="50"></p>
     </div>
 
     <div>
-			<p>Converted Temperature 1: <span class="output" id="converted"></span></p>
+			<p>Converted Unit 1: <span class="output" id="converted"></span></p>
     </div>
 		<div>
-			<p>Converted Temperature 2: <span class="output" id="converted2"></span></p>
+			<p>Converted Unit 2: <span class="output" id="converted2"></span></p>
     </div>
+		<p><span class="output" id="errorMsg"></span></p>
 
- 	<h1>Conversion Formula</h1>
-	<table border="1" align="center">
-<tr>
-<th style="background-color:#f0f0f0;">From</th>
-<th style="background-color:#f0f0f0;">To</th>
-<th style="background-color:#f0f0f0;">Formula</th>
-</tr>
-<tr>
-<td>Fahrenheit</td>
-<td>Celsius</td>
-<td>ºC = ( ºF - 32) / 1.8</td>
-</tr>
-<tr>
-<td>Celsius</td>
-<td>Fahrenheit</td>
-<td>ºF = ºC x 1.8 + 32</td>
-</tr>
-<tr>
-<td>Fahrenheit</td>
-<td>Kelvin</td>
-<td>K = ( ºF + 459.67) / 1.8 </td>
-</tr>
-<tr>
-<td>Kelvin</td>
-<td>Fahrenheit</td>
-<td>ºF = K × 1.8 - 459.67</td>
-</tr>
-<tr>
-<td>Celsius</td>
-<td>Kelvin</td>
-<td>K = ºC + 273.15</td>
-</tr>
-<tr>
-<td>Kelvin</td>
-<td>Celsius</td>
-<td>ºC = K – 273.15</td>
-</tr>
+		<table>
+		<tr><h1>Temperature Conversion Formula</h1></tr>
+		<table border="1" align="center">
+		<tr>
+		<th style="background-color:#f0f0f0;">From</th>
+		<th style="background-color:#f0f0f0;">To</th>
+		<th style="background-color:#f0f0f0;">Formula</th>
+		</tr>
+		<tr>
+		<td>Fahrenheit</td>
+		<td>Celsius</td>
+		<td>ºC = ( ºF - 32) / 1.8</td>
+		</tr>
+		<tr>
+		<td>Celsius</td>
+		<td>Fahrenheit</td>
+		<td>ºF = ºC x 1.8 + 32</td>
+		</tr>
+		<tr>
+		<td>Fahrenheit</td>
+		<td>Kelvin</td>
+		<td>K = ( ºF + 459.67) / 1.8 </td>
+		</tr>
+		<tr>
+		<td>Kelvin</td>
+		<td>Fahrenheit</td>
+		<td>ºF = K × 1.8 - 459.67</td>
+		</tr>
+		<tr>
+		<td>Celsius</td>
+		<td>Kelvin</td>
+		<td>K = ºC + 273.15</td>
+		</tr>
+		<tr>
+		<td>Kelvin</td>
+		<td>Celsius</td>
+		<td>ºC = K – 273.15</td>
+		</tr>
 
-</table>
+		</table>
+		<tr><h1>Meter Conversion Formula</h1></tr>
+		<table border="1" align="center">
+		<tr>
+		<th style="background-color:#f0f0f0;">From</th>
+		<th style="background-color:#f0f0f0;">To</th>
+		<th style="background-color:#f0f0f0;">Formula</th>
+		</tr>
+		<tr>
+		<td>Fahrenheit</td>
+		<td>Celsius</td>
+		<td>ºC = ( ºF - 32) / 1.8</td>
+		</tr>
+		<tr>
+		<td>Celsius</td>
+		<td>Fahrenheit</td>
+		<td>ºF = ºC x 1.8 + 32</td>
+		</tr>
+		<tr>
+		<td>Fahrenheit</td>
+		<td>Kelvin</td>
+		<td>K = ( ºF + 459.67) / 1.8 </td>
+		</tr>
+		<tr>
+		<td>Kelvin</td>
+		<td>Fahrenheit</td>
+		<td>ºF = K × 1.8 - 459.67</td>
+		</tr>
+		<tr>
+		<td>Celsius</td>
+		<td>Kelvin</td>
+		<td>K = ºC + 273.15</td>
+		</tr>
+		<tr>
+		<td>Kelvin</td>
+		<td>Celsius</td>
+		<td>ºC = K – 273.15</td>
+		</tr>
+
+		</table>
+		</table>
+
+
+
+
 
     </div>
   </div>
