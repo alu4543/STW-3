@@ -1,0 +1,26 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "name": "STW-3",
+  "version": "1.0.0",
+  "description": "Conversor en JavaScript de grados Celsius a Farenheit y a Kelvin y viceversade la temperatura con uso de Emmet, npm, Package.json, Mocha, Chai, Gulp, Karma, Travis, Web Workers\r ### Descripción de la Práctica",
+  "main": "converter.js",
+  "scripts": {
+    "test": "mocha test",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu4543/STW-3.git"
+  },
+  "keywords": [],
+  "author": "Mohammed MAhrach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu4543/STW-3/issues"
+  },
+  "homepage": "https://github.com/alu4543/STW-3#readme"
+}
