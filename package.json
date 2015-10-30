@@ -1,22 +1,28 @@
 {
   "dependencies": {},
   "devDependencies": {
-    "chai": "*",
-    "mocha": "*"
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
   },
   "name": "STW-3",
   "version": "1.0.0",
-  "description": "Conversor en JavaScript de grados Celsius a Farenheit y a Kelvin y viceversade la temperatura con uso de Emmet, npm, Package.json, Mocha, Chai, Gulp, Karma, Travis, Web Workers\r ### Descripción de la Práctica",
+  "description": "JavaScript Units Conversor, we will use: Emmet, npm, Package.json, Mocha, Chai, Gulp\r ### Descripción de la Práctica",
   "main": "converter.js",
   "scripts": {
-    "test": "mocha test",
-    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
+    "test": "open tests.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o tests/chai.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o tests/sinon-1.12.2.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alu4543/STW-3.git"
+    "url": "git://github.com/alu4543/STW-3.git"
   },
-  "keywords": [],
+  "keywords": ["mocha",
+    "chai",
+    "sinon",
+    "testing",
+    "javascript"],
   "author": "Mohammed MAhrach",
   "license": "ISC",
   "bugs": {
