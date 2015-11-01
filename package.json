@@ -6,7 +6,6 @@
     "mocha": "^2.3.3",
     "sinon": "^1.17.1"
   },
-  
   "name": "STW-3",
   "version": "1.0.0",
   "description": "JavaScript Units Conversor, we will use: Emmet, npm, Package.json, Mocha, Chai, Sinon, Gulp and Blanket",

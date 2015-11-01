@@ -18,7 +18,19 @@
     Measure.call(this, value,type);
   }
 
+  function Mass(value,type){
+    Measure.call(this, value,type);
+  }
+
   function Length(value,type){
+    Measure.call(this, value,type);
+  }
+
+  function Surface(value){
+    Measure.call(this, value,type);
+  }
+
+  function Volume(value){
     Measure.call(this, value,type);
   }
 
@@ -113,10 +125,14 @@
   }
 
 
+
   exports.Measure = Measure;
   exports.Temperature = Temperature;
 
+  exports.Mass = Mass;
   exports.Length = Length;
+  exports.Surface = Surface;
+  exports.Volume = Volume;
 
   exports.Celsius = Celsius;
   exports.Farenheit = Farenheit;
@@ -201,3 +217,11 @@
   }
 
 })(this);
+
+
+// umeros exponenciales(Transformar): http://tip.dis.ulpgc.es/numeros-texto/default.aspx
+// Expresiones regulares(Graficamente) : http://regexper.com
+// Expresiones regulares : http://www.arumeinformatica.es/blog/expresiones-regulares-conceptos-basicos/
+//* : Busca el caracter precedente 0 (cero) o más veces.
+//+ : Busca el caracter precedente 1 o más veces.
+//? : Busca el caracter precedente 0 (cero) o 1 (una) vez.
