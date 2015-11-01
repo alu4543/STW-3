@@ -1,18 +1,19 @@
-{
+
   "dependencies": {},
   "devDependencies": {
+    "node-static": "~0.7.7",
     "blanket": "^1.1.8",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
-    "sinon": "^1.17.1"
+    "sinon": "^1.17.1",
   },
+
   "name": "STW-3",
   "version": "1.0.0",
   "description": "JavaScript Units Conversor, we will use: Emmet, npm, Package.json, Mocha, Chai, Sinon, Gulp and Blanket",
   "main": "converter.js",
   "scripts": {
-
-    "test": "open tests.html",
+    "test": "node static_server",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o tests/chai.js",
     "blanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js -o tests/blanket.js",
     "mocha-blanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js -o tests/mocha-blanket.js",
