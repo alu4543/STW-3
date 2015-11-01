@@ -198,6 +198,13 @@ describe("Measure Units Converter", function() {
       expect(converted2.innerHTML).to.equal("273.150000 Kelvin");
     });
 
+    it("HTML UI : 273.15k will = 32.000000 Farenheit = 0.000000 Celsius",function(){
+      original.value = "273.15k";
+      calculate();
+      expect(converted.innerHTML).to.equal("32.000000 Farenheit");
+      expect(converted2.innerHTML).to.equal("0.000000 Celsius");
+    });
+
     it("HTML UI : 1m will = 100 Centimeter = 0.001 Kilometer",function() {
       original.value = "1m";
       calculate();
@@ -210,6 +217,13 @@ describe("Measure Units Converter", function() {
       calculate();
       expect(converted.innerHTML).to.equal("1000.000000 Meter");
       expect(converted2.innerHTML).to.equal("100000.000000 Centimeter");
+    });
+
+    it("HTML UI : 1cm will = 0.001000 Meter = 0.000010 Kilometer",function() {
+      original.value = "1cm";
+      calculate();
+      expect(converted.innerHTML).to.equal("0.001000 Meter");
+      expect(converted2.innerHTML).to.equal("0.000010 Kilometer");
     });
 
 
