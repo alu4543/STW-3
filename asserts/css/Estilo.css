@@ -1,0 +1,182 @@
+/*
+Nombre: Portal java
+Autor: Mohammed Mahrach
+Fecha: 10/06/2011
+*/
+
+/**** cabecera****/
+
+.titleblock {
+text-align:left;
+background-image:url(../Imagenes/iespuertodelacruz.png);height: 17px;
+background-repeat:no-repeat; background-position:left; margin: 0px;
+padding: 75px;
+}
+
+/**** base contenidora de la pagina ****/
+#tituloinformacion{float: left; margin-top: 30px}
+#foto{float: right; margin-top: 30px}
+#content { float: right; width: 510px; margin-top: 30px; margin-left: 2px; }
+
+#indiceIntro{float: left; margin-left:10em; margin-top: 2em}
+
+#content a { color:#a4d6f5; font-weight: bold;}
+#indiceIntro a { color:#FFFFFF}
+#content a:hover {
+ color: #fff;
+ background: #993399;
+ font-weight: bold;}
+
+#content p {line-height: 1.4em; font-size: 1.2em; margin-bottom: 20px; color: #f4f4f4;}
+
+#content h2 {
+color: #FFFFFF;
+font-size: 2em;
+}
+
+
+#content h3 {
+text-indent: 20px;
+color: #999;
+font-size: 1.8em;
+margin-bottom: 10px;
+}
+
+#content h4 {
+color: #999;
+font-size: 1.3em;
+margin-left: 10px;
+}
+
+#content h3:hover { color: #fff;}
+
+#content code{
+	  color: #444;
+	  background: #F4f4f4 url(codenums.png) repeat-y;
+	  border: 1px solid #ccc;
+	  padding: 1px;
+	  padding-left: 25px;
+	  font-family: "courier new", helvetica, "times new roman", monospace;
+	  font-size: 2em;
+	  width: 470px;
+	  margin: 2px auto;
+	  white-space: nowrap;
+	  overflow: auto;
+}
+
+
+/**** cuerpo de la pagina ****/
+
+body {
+ background: #000000 url(headergrunge.jpg);
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 80%;
+ color: #424242;}
+
+body { background: #343434 url(pagebg.gif) repeat-x; font-family: "Lucida Grande", verdana, "Lucida Sans Unicode", sans-serif; font-size: 62.5%; color: #9f9f9f;}
+
+
+
+
+#codigo {color: #000000; background: #FFFFFF}
+
+* { margin: 0; padding: 0; border;}
+
+h3 { color: #fff; font-size: 1.3em; margin: 15px 0 10px 0;}
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+/*tituolo derecha*/
+
+.tituloderecha {float:right ;background-image:url(JavaIcon.jpg);
+ background-repeat:no-repeat; background-position:right;  margin: 1px;
+ padding: 1px;
+ }
+.tituloderecha h1 {
+ background-position:right;text-indent:10em;font-size: ; color:#F8F8F8}
+.tituloderecha h3 {
+ background-position:right;font-size: 1.5em;text-indent:4em; color:#3B4471}
+
+.titulo_derecha h2{
+	 color: #FFF; font-size: 3em
+	}
+.titulo_derecha h2 span{
+	color: #a4d6f5; font-size: 1em
+	}
+
+
+#contenidorPagina { width: 770px; margin: 0 auto;}
+#menuIzquierda { width: 200px; float: left; margin-top: 40px; height: 105%;}
+
+
+/* lista menuIzquierda */
+#menuIzquierda ul li {list-style: none}
+
+#menuIzquierda ul li a {
+	color: #a4d6f5; display: block; font-size: 1.2em; text-indent: 10px; line-height: 25px; width: 235px; height: 20px;
+}
+#menuIzquierda ul li a:hover {
+	color: #000; background: #a4d6f5
+}
+#contenidorPagina #menuIzquierda h1 span {
+	color: #a4d6f5;
+}
+#contenidorPagina #menuIzquierda h1 {
+	color: #FFFFFF;
+}
+
+#contenidorPagina #menuIzquierda ul {
+	color: #3ADF00;
+}
+.titleblock h3 {
+	color: #3ADF00;
+}
+
+#contenidorPagina #menuIzquierda h1 {
+	color: #808080;
+}
+#contenidorPagina #menuIzquierda h1 {
+	color: #993399;
+}
+#contenidorPagina .titleblock .titulo_derecha h2 {
+	color: #993399;
+}
+#contenidorPagina #menuIzquierda h3 {
+	color: #993399;
+}
+#comentario {
+	color: #993399;font-size: 1em;
+}
+#contenidorPagina .titleblock .titulo_derecha p {
+	color: #FFF;
+}
+
+/*pie de pagina*/
+
+#footer {
+ text-align: center;
+ color: #666;
+ margin-top: 30px;
+ font-size: 0.7em;
+ }
+
+#footer p { color: #666;}
+
+#footer a { color: #666;}
+
+#footer a:hover { color: #f4f4f4;}
+
+.br { clear: both;}#contenidorPagina #content p {
+	color: #F00;
+}
+#contenidorPagina #content p {
+	color: #FFF;
+}
+
+
+#contenidorPagina #content div p {
+	color: #808080;
+}
