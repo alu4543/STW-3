@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    The css in this file is essential to
+    the opertaion of the menu.
+\*------------------------------------*/
+
+/* Stop scroll bars when the menu is opened */
+#ocm-outer-page-wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+/* A div that should wrap everything you want to shift when the menu comes into view */
+#ocm-page-wrapper {
+	position: relative;
+	width: 100%;
+	left: 0;
+	transition: position, .3s;
+}
+
+/* Hide and reveal if js is available */
+.ocm-open-btn,
+.ocm-close-btn {
+	display: none;
+}
+
+/* These styles push the nav tag off canvas and show it when the .is_active-ocm class is added to the body by jQuery.  */
+@media screen and (min-width: 0) and (max-width: 40em) {
+
+	.js .ocm-main-menu {
+		position:absolute;
+		height: 100%;
+		width: 70%;
+		left: -70%;
+		top: 0;
+		background: #e9eaed;
+	}
+
+
+	.is_active-ocm #ocm-page-wrapper {
+		left: 70%;
+	}
+
+	.js .ocm-open-btn,
+	.js .ocm-close-btn {
+		display:inline;
+	}
+
+	.ocm-page-close {
+		cursor: pointer;
+	}
+}

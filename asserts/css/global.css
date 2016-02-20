@@ -1,0 +1,11 @@
+body { background: #343434; font-family: "Lucida Grande", verdana, "Lucida Sans Unicode", sans-serif; color: #9f9f9f;}
+
+#converted, #converted2  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
+
+#search-results {
+    position:absolute;
+    background-color: #eee;
+    z-index:999;
+    padding: 10px;
+    top:10px;
+}
